@@ -5,7 +5,7 @@ terraform {
       version = "6.30.0"
     }
   }
-  backend "s3" {
+   backend "s3" {
     bucket="aman-terrastate-bucket"
     key="terraform.tfstate"
     region ="eu-west-1"
